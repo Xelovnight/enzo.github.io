@@ -1,0 +1,23 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 22 déc. 2023, 11:34:36
+    Author     : enzo.jungers
+*/
+
+#jumbotron {
+    margin-top: 10px; /* Marge supérieure */
+    display: flex; /* Ce conteneur est "flexible" */
+    flex-direction: row; /* Les éléments sont mis côte à côte */
+    text-align: justify; /* Alignement du texte : justifié */
+}
+#jumbotron div img {
+    float: left; 
+    margin-right: 10px;
+}
+#jumbotron div p {
+    flex-grow: 1;
+    padding-top: 16px;
+}
