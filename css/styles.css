@@ -7,17 +7,10 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     Author     : enzo.jungers
 */
 
-#jumbotron {
-    margin-top: 10px; /* Marge supérieure */
-    display: flex; /* Ce conteneur est "flexible" */
-    flex-direction: row; /* Les éléments sont mis côte à côte */
-    text-align: justify; /* Alignement du texte : justifié */
-}
-#jumbotron div img {
-    float: left; 
+#photo {
     margin-right: 10px;
 }
-#jumbotron div p {
-    flex-grow: 1;
-    padding-top: 16px;
+.jumbotron {    
+    padding-bottom: 30px;
+
 }
